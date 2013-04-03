@@ -6,7 +6,7 @@ $(function() {
     if( !iosAgent() ) {
         stellarInit();
         hoverInit();
-        equalizeHeight()
+        equalizeHeight();
     }
 
     // Hide address bar on iOS
@@ -19,6 +19,26 @@ $(function() {
     tooltipInit();
     lightboxInit();
     setupSignupForm();
+
+    $('#emailInputForm').validate({
+        invalidHandler: function(event, validator) {
+          
+        },
+        submitHandler: function() {
+            console.log('success');
+        },
+        errorPlacement: function(error, element) {
+            error.insertAfter('#emailInput');
+        },
+        highlight: function(element, errorClass) {
+            $(element).addClass(errorClass);
+        },
+        messages: {
+            email: {
+                required: '*Please Enter a Valid Email Address.'
+            }
+        }
+    });
 
 });
 
