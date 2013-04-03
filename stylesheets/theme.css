@@ -258,6 +258,24 @@ h3 {
   background: url(../images/backgrounds/section2-bg3.png) no-repeat top center;
 }
 
+#section-4 .testimonials-image {
+  -webkit-box-shadow: 0px 0px 5px rgba(85, 85, 85, 0.2);
+  -moz-box-shadow: 0px 0px 5px rgba(85, 85, 85, 0.2);
+  box-shadow: 0px 0px 5px rgba(85, 85, 85, 0.2);
+}
+
+#section-4 .testimonials-image-left {
+
+}
+
+#section-4 .testimonials-image-right {
+  margin-left: 50px;
+}
+
+#section-4 .testimonials-row {
+  padding-bottom: 70px;
+}
+
 /* SECTION 5: CONTACT */
 /* ------------------ */
 #section-5 .bg-1 {
