@@ -903,6 +903,8 @@ h3 {
 
 .carousel .item > img {
   margin: 0 auto;
+  margin-top: 29px;
+  margin-left: 13px;
 }
 .carousel .item figure {
   margin: 0;
