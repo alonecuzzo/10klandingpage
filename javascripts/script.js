@@ -20,12 +20,12 @@ $(function() {
     lightboxInit();
     setupSignupForm();
 
-    $('#emailInputForm').validate({
-        invalidHandler: function(event, validator) {
-          
+    $('#mc-embedded-subscribe-form').validate({
+        submitHandler: function(form) {
+            $('#signupModal').modal('hide');
+           form.submit();
         },
-        submitHandler: function() {
-            console.log('success');
+        invalidHandler: function(event, validator) {
         },
         errorPlacement: function(error, element) {
             error.insertAfter('#emailInput');

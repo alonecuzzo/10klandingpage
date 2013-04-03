@@ -518,15 +518,16 @@
     <div class="modal-body">
       <p>10K is currently in private beta and soon we'll start releasing beta invites.</p>  
       <p>Let us know if you want to be notified.</p>
-      <form class="cmxform" id="emailInputForm" method="get" action="">
+      <!-- <form class="cmxform" id="emailInputForm" method="post" action="http://23b.us6.list-manage2.com/subscribe/post?u=8156d9308486b113e9cc5b264&amp;id=9026e95518"> -->
+      <form action="http://23b.us6.list-manage.com/subscribe/post?u=8156d9308486b113e9cc5b264&amp;id=9026e95518" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
         <div class="input-append" id="emailInput">
-          <input errorClass=".formError" class="span2 required" name="email" id="emailInput" placeholder="me@example.com" type="email" required>
+          <input errorClass=".formError" class="span2 required" name="EMAIL" id="mce-EMAIL" placeholder="me@example.com" type="email" required>
           <span class="add-on"><i class="icon-envelope"></i></span>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn" type="submit" class="submit" data-dismiss="modal" aria-hidden="true">Close</button>
-        <button class="btn btn-primary">Notify Me!</button>
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <input type="submit" value="Notify Me!" id="mc-embedded-subscribe" class="submit btn btn-primary">
       </div>
     </form>
   </div>
