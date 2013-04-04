@@ -1160,7 +1160,7 @@ h3 {
 /* MEDIA QUERIES */
 /* --------------*/
 /* Big screens */
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .carousel-control.left {
     left: 1em;
   }
@@ -1168,7 +1168,7 @@ h3 {
     right: 1em;
     left: auto;
   }
-}
+}*/
 /* Up to small screens */
 @media (max-width: 979px) {
   .section .container {
