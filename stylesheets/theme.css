@@ -1279,6 +1279,12 @@ h3 {
     margin-right: 0;
   }
 
+  #section-4 .testimonials-image, #section-4 .testimonials-image-right, #section-4 .testimonials-image-left{
+    margin: 0 auto;
+    text-align: center;
+    width: 98%;
+  }
+
   #intro .carousel-frame {
     background-position-y: 11px;
   }
