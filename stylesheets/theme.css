@@ -118,7 +118,6 @@ h3 {
 }
 .theme-orange .navbar .nav .active a, .theme-orange .navbar .nav > li > a:hover, .theme-orange .navbar .nav > .active > a:hover, .theme-orange .navbar .nav > .active > a:focus {
   color: #ff6405;
-
 }
 .theme-blue .navbar .nav .active a, .theme-blue .navbar .nav > li > a:hover, .theme-blue .navbar .nav > .active > a:hover, .theme-blue .navbar .nav > .active > a:focus {
   color: rgb(26, 153, 158);
@@ -1193,6 +1192,10 @@ h3 {
   .btn-navbar {
     position: absolute;
     right: 0;
+  }
+
+  .nav #benefits, .nav #screenshots, .nav #testimonials, .nav #contact{
+    margin-left: 40px;
   }
 
   .social-media-buttons {
