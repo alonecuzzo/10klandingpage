@@ -19,6 +19,7 @@ $(function() {
     tooltipInit();
     lightboxInit();
     setupSignupForm();
+    //setupSharing();
 
     $('#mc-embedded-subscribe-form').validate({
         submitHandler: function(form) {
@@ -42,6 +43,13 @@ $(function() {
 
 });
 
+function setupSharing() {
+    stLight.options({publisher: "ur-9761e82-3a8c-3ca0-571c-3d4dc57d41b4", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+
+    var options={ "publisher": "ur-9761e82-3a8c-3ca0-571c-3d4dc57d41b4", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "email"]}};
+    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+}
+ 
 // Function to hide the bar on IOS
 function iosHideBar() {
     window.addEventListener("load",function() {

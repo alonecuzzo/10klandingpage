@@ -181,6 +181,21 @@ h3 {
   display: none;
 }
 
+.navbar .social-media-buttons {
+  margin-right: 10px;
+  margin-top: -45px;
+  margin-left: 850px;
+}
+
+.navbar .social-media-buttons .fblikebutton {
+  margin-top: -13px;
+}
+
+.twitterlikebutton {
+  padding-top: 10px;
+}
+
+
 /* SECTION 1: HOME SCREEN */
 /* ---------------------- */
 #section-1 .bg-1 {
