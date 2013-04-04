@@ -1195,6 +1195,10 @@ h3 {
     right: 0;
   }
 
+  .social-media-buttons {
+    display: none;
+  }
+
   .nav-collapse .brand {
     display: none;
   }
@@ -1211,8 +1215,8 @@ h3 {
     max-width: 63%;
   }
   #intro .carousel-frame {
-    background-size: 100%;
-    background-position: 9% 0;
+    background-size: 90%;
+    background-position: 39% 50%;
   }
   #intro .carousel-control {
     margin-top: -0.5em;
@@ -1228,7 +1232,7 @@ h3 {
     margin-right: 0;
   }
   .app-iphone-portrait #intro .carousel-inner {
-    max-width: 66%;
+    max-width: 79%;
   }
 
   .get-it {
