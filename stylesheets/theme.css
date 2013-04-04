@@ -1277,12 +1277,12 @@ h3 {
   }
 
   #intro .carousel-frame {
-    background-position-y: 0px;
+    background-position-y: 11px;
   }
 
   .app-iphone-portrait .portrait-slides, .app-iphone-portrait .portrait-features {
     width: 100%;
-    max-width: 415px;
+    max-width: 360px;
     margin-right: auto;
     margin-left: auto;
     float: none;
