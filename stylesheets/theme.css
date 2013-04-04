@@ -1320,6 +1320,10 @@ h3 {
     margin-right: -20px;
   }
 
+  #section-1 #benefit-question {
+    font-size: 55px;
+  }
+
   .input-prepend input, .input-append input, .input-prepend input[class*="span"], .input-append input[class*="span"] {
     margin-left: -12px;
   }
