@@ -5,7 +5,7 @@ $(function() {
     // Only enable hover functions, equal height sections and parallax on non iOs
     if( !iosAgent() ) {
         stellarInit();
-        hoverInit();
+        //hoverInit();
         equalizeHeight();
     }
 
